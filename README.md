@@ -3,7 +3,7 @@ BloodBath
 
 A simple beat-em-up game featuring EngD students at Bath university
 
-To run it, you need to install the Love2D runtime from [love2d.org](http://love2d.org).
+To run it, you need to install the Love2D runtime from [love2d.org](http://love2d.org) version 11.5+.
 Once installed, double click bloodbath.love, or type "love ." inside the project directory.
 
 Controls:

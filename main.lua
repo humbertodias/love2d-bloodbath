@@ -1,4 +1,4 @@
-local game = require("game")
+local game = require "game"
 local player = require "player"
 local gfx = require "gfx"
 
@@ -27,11 +27,11 @@ end
 -- this is called once when the game loads
 function love.load()
     -- prevents anti-aliasing
-    love.graphics.setDefaultImageFilter("nearest", "nearest")
-    love.graphics.setMode(800,600,true) --fullscreen
+    love.graphics.setDefaultFilter("nearest", "nearest")
+    -- love.window.setMode(800, 600, {fullscreen = true}) --fullscreen
     
-    --love.graphics.setMode(800,600,false) --windowed
-    love.graphics.setCaption("BloodBath")
+    love.window.setMode(800, 600, {fullscreen = false}) --windowed
+    love.window.setTitle("BloodBath")
 
     -- key maps for controlling players
     local keymap1 = {joy=false,up="w",down="s",left="a",right="d",punch="lshift",kick="lctrl"}
