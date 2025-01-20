@@ -7,13 +7,14 @@ SOURCE_DIR := .
 # Output files
 LOVE_FILE := $(PROJECT_NAME).love
 ZIP_FILE := matt-game.zip
+LOVE_VERSION := $(shell love --version)
 
 # List of files to include in the package
 INCLUDE_FILES := $(wildcard $(SOURCE_DIR)/**/*) $(wildcard $(SOURCE_DIR)/*)
 
 # Run the game
 run:
-	@echo "Running ..."
+	@echo "Running on love2d version ${LOVE_VERSION}"
 	@love .
 
 # Default rule (creates the .love file)
