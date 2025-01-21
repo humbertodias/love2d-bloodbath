@@ -1,0 +1,51 @@
+# Compiled files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Love2D package
+#*.love
+
+# Operating System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+Icon?
+
+# Editor-specific files
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln
+*.sw?
+
+# Logs and debug files
+*.log
+*.out
+
+# Node.js dependencies (if applicable, e.g., for build scripts)
+node_modules/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+
+# Version control folders
+.git/
+#.gitignore
+
+# Cache files
+.cache/
+*.pyc
+*.pyo
+__pycache__/
+
+# Build artifacts
+dist/
+build/
+output/
