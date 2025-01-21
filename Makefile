@@ -42,7 +42,8 @@ clean:
 # Help command
 help:
 	@echo "Available commands:"
-	@echo "  make         - Creates the $(LOVE_FILE)"
+	@echo "  make         - Run the game"
+	@echo "  make love    - Creates the $(LOVE_FILE)"
 	@echo "  make zip     - Creates a standard ZIP file: $(ZIP_FILE)"
 	@echo "  make clean   - Removes the $(LOVE_FILE) and $(ZIP_FILE)"
 	@echo "  make help    - Displays this help message"
