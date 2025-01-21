@@ -1,5 +1,5 @@
 # Project name
-PROJECT_NAME := bloobath
+PROJECT_NAME := bloodbath
 
 # Game source directory (change if needed)
 SOURCE_DIR := .
@@ -18,7 +18,7 @@ run:
 	@love .
 
 # Default rule (creates the .love file)
-all: $(LOVE_FILE)
+love: $(LOVE_FILE)
 
 # Rule to create the .love file
 $(LOVE_FILE): $(INCLUDE_FILES)
