@@ -24,7 +24,7 @@ jobs:
     
     - name: Package Love2D project
       run: |
-        zip -9 -r $LOVE_FILE_NAME . -x "*.git*" "*.DS_Store*"
+        zip -9 -r $LOVE_FILE_NAME . -x "*.git*" "*.DS_Store*" "*.pdf*" "*.zip*"
     
     - name: Upload release assets
       uses: softprops/action-gh-release@v2
